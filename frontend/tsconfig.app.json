@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",                        // Enables async/await
+    "lib": ["es2017", "dom"],                  // Includes Promise and browser APIs
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": false,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "noEmit": false
+  },
+  "include": ["src"]
+}
