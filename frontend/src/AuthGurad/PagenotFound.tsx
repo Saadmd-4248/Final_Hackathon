@@ -30,7 +30,7 @@ const NotFoundPage: React.FC = () => {
       <Button
         variant="contained"
         color="primary"
-        onClick={() => navigate("/login")}
+        onClick={() => navigate("/main")}
       >
         Go Back Home
       </Button>
