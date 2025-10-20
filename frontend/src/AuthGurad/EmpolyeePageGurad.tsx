@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom"
-import LoginPage from "../components/auth pages/login"
+// import LoginPage from "../components/auth pages/login"
+import Employee from '../components/employee/MainDashobard'
+import LandingPage from '../components/employee/Landingpage'
 
 
 
@@ -7,7 +9,7 @@ import LoginPage from "../components/auth pages/login"
 const PageAccess = ()=>{
     const isAuth = !!localStorage.getItem('token')
     return(
-        isAuth ? <Outlet/> : <LoginPage/>
+        isAuth ? <Employee/> : <LandingPage/>
     )
 }
 export default PageAccess
